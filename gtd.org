@@ -1,0 +1,125 @@
+
+* TASKS
+#+CATEGORY: Tasks
+
+* Projects
+#+CATEGORY: Projects
+
+* Financial
+#+CATEGORY: Financial
+
+* Journal
+#+CATEGORY: Journal
+** <2019-03-11 Mon 22:30>
+This week I am the support monitor. For the tasks I have to complete soon, the 
+primary one is to start working on the Solvnet articles. Other than that I have
+to work on the flow for the lightweight QRM and clear the STAR/CASE backlog.
+I want to get to zero issues in my queue before next week. I had headache till 
+evening so it was difficult to work.
+** <2019-03-12 Tue 22:48>
+Today I woke up before 7 and did all the items on my todoist tasklist. I want
+to add suryanamaskaram to my tasklist. I will start with 5 tomorrow, immediately
+after the planks. Work went moderately well, I started updating the QRM slides.
+I will complete it tonight before sleeping.
+** <2019-03-13 Wed 22:49>
+I completed all the tasks in my todoist list today as well. I want to add 
+something more to the list but I am first trying to consolidate my habits.
+I get envious of people who studied with me in Purdue who are now in positions
+that I want to be in. I am again feeling directionless. I want to do so many 
+things. I need to sit down and figure it out. The following are definitely things
+I am interested in: Device Physics, Analog Design, STA, Deep Learning. I want to
+spend time every day working on all of them. Of them I can work on all except
+Deep Learning in office. I am going to spend 3 Pomodoros every day in the 
+following order:
+Monday - Analog Design from Razavi
+Tuesday - Device Physics 
+Wednesday - Analog Design project
+Thursday - Device Physics
+Friday - Analog Design project
+I am working on STA anyway and Machine/Deep Learning I will focus at home.
+In terms of STA, I want to understand how constraints are specified as well as
+ECO. Then I will move to hierarchical analysis. 
+In terms of Deep Learning, I will spend 2 Pomodoros every day after waking up
+on fast.ai. 
+** <2019-03-14 Thu 07:33>
+Lesson 5: We start with an explanation of backpropagation and how it is the 
+primary way a neural network is solved.
+Each neural network has two kinds of numbers, parameters and activations
+Parameters are numbers that we solve for after initializing them randomly
+Activations are the outputs of matrix multiplying the parameters with the inputs
+if for the first stage or the activations of the previous stage for further 
+stages. They could also be the result of the activation function like relu on 
+the activations from matrix multiplying.
+For transfer learning, instead of starting with all random numbers we use a 
+pretrained network that already does something well and use it for a new task.
+In fastai, create_cnn will not immediately wipe out the entire trained network.
+Instead it will blank out the last layer that generates the output. For eg:
+a resnet34 which has a 1000 by x layer is replaced with two random layers the 
+later of which has as many columns as we have classes in databunch fed to the 
+create_cnn command. The fitting of this neural network is not done completely,
+ie the backpropagation of gradients doesn't happen till the first layer, instead
+the initial backpropagation happens only on the final two layers inserted.
+This is done because the network is already good at doing something other than
+random. So we try to utilize that. This is referred to as freezing the network.
+Once this is done, the network is unfreezed and then backpropagation happens
+throughout. But even now, the initial layers are good at something, maybe
+detecting basic shapes so we use a smaller learning rate for those layers 
+while the final layers are still undergoing learning so a bigger learning rate
+for them. This method of using different learning rates for different layers
+is callled discriminative learning. There are three ways in which we can specify
+learning rate:
+1. single learning rate: this learning rate is applied for all the network
+2. slice(learning rate): the last two layers use the learning rate and all other
+layers use this learning rate/3
+3. slice(learning rate1, learning rate2): the first layers use learning rate1
+and the last two layers use learning rate2 while all other layers groups use
+values equally spaced between the two ranges.
+3 layer groups in general: 1 layer group is the randomly added layers, rest of 
+the layers are divided into two layer groups.
+** <2019-03-18 Mon 07:28>
+
+We move onto depicting embeddings using an excel worksheet. First of all we
+start with the original matrix itself. There we were multiplying the initial
+random user matrix with the random movie matrix and minimizing the MSE.
+In the intermediate new approach, 
+we copy the user matrix and the movie matrix
+to a new worksheet. 
+There first of all we transpose the movie matrix so that
+it also has the same dimensions as the user matrix. In the eg., both have
+15 rows and 5 columns. 
+Then we replace the movie and user ids from the weird
+actual numbers to numbers in the range 1-15 for ease of use. 
+Finally we add 
+one-hot encoded matrices for both user and movie ids. That means, in the user
+one-hot encoded matrix, we add a 1 at column n for user id n and everything 
+else is zero. Same for movie id.
+Now if we multiply the user id one-hot matrix
+with the user weight matrix, we can see that the resulting matrix has only the
+row for user id n from weight matrix if the row from one-hot user matrix has 1
+for the same user id. Same for movie id. 
+
+Essentially we have looked up the 
+weight matrix for an id. Since this is a simpler process than multiplying with
+a one-hot encoded matrix, we do that in the future. 
+This is called an embedding.
+So an embedding is a lookup into the weight matrix for a row corresponding to an
+id which is equivalent to matrix multiplication of a one-hot encoded matrix with
+a weight matrix. 
+The weight matrixes contain information about a movie and user, therefore these
+are called latent factors
+As a next level of improvement of our system, we add bias terms to the user and
+movie weight matrix. What this bias ends up indicating is the movie rating 
+behaviour of a user and the quality of a movie in this example. So a user that
+consistently rates movies in a particular way will have a corresponding bias 
+term in their weight matrix and a movie that everybody/nobody likes will have
+bias term in its weight matrix that indicates the same. This addition of bias
+term is a regularization process. It improves the performance of our network not
+just for our training data but for the test data. We will have more deeper
+discussion of regularization later. 
+
+** org-mode config
+#+STARTUP: overview
+#+STARTUP: hidestars
+#+TAGS: WORK(w) PERSONAL(p)
+
+
