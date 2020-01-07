@@ -1,0 +1,111 @@
+* [2019-12-29 Sun 12:24] Grasp | Mildly entertainingᵝ :grasp:
+https://beepb00p.xyz/grasp.html
+Selection:
+ integrate your browser with your knowledge repository and capture things straight into your capture.org file. 
+Comment:
+Testing grasp
+* [2019-12-29 Sun 12:42] python socket.error: [Errno 98] Address already in use - Stack Overflow :unix:
+https://stackoverflow.com/questions/17780291/python-socket-error-errno-98-address-already-in-use
+Selection:
+ lsof -i :8000
+Comment:
+How to find process listening on a port
+* [2019-12-29 Sun 12:43] How to Enable or Disable Services in Ubuntu Systemd/Upstart :unix:
+https://linoxide.com/linux-how-to/enable-disable-services-ubuntu-systemd-upstart/
+Comment:
+Enable/Disable systemd service
+* [2019-12-29 Sun 12:44] linux - How stop systemd service - Stack Overflow :unix:
+https://stackoverflow.com/questions/40411338/how-stop-systemd-service
+Selection:
+systemctl stop flume-ng.service
+Comment:
+Stop systemd service
+* [2019-12-29 Sun 12:45] GitHub - karlicoss/grasp: A reliable org-capture browser extension for Chrome/Firefox :grasp:
+https://github.com/karlicoss/grasp
+Comment:
+Grasp extension
+* [2019-12-29 Sun 12:48] manan ahmed on Twitter: "At 88, historian Irfan Habib is literally resisting CAA and NRA https://t.co/olGWoapH0i https://t.co/9WYp82nAZm" / Twitter :remindme:
+https://twitter.com/sepoy/status/1210946525741883392
+Selection:
+Irfan Habib
+Comment:
+Read about him
+* [2019-12-29 Sun 12:50] hardmaru on Twitter: "This “Karakuri puppet” was a reconstruction from the original plans from ~ 160 years ago. Read more about 文字書き人形 https://t.co/LQwqc64RYg https://t.co/s7sRu1xk60 https://t.co/KDO37VhFQ0" / Twitter :remindme:history:
+https://twitter.com/hardmaru/status/1211182749572157441
+Selection:
+[[https://t.co/qfO66LaBf8?amp=1][Karakuri puppet]]
+Comment:
+Read about this
+* [2019-12-29 Sun 13:06] Building personal search infrastructure for your knowledge and code | Mildly entertainingᵝ :grasp:
+https://beepb00p.xyz/pkm-search.html
+
+* [2019-12-29 Sun 15:03] Automate ⋅ everyday automation for Android ⋅ LlamaLab :android:
+https://llamalab.com/automate/
+Comment:
+This looks like an interesting app
+* [2019-12-29 Sun 15:08] Netflix India on Twitter: "If you start S10E04 of Friends at 11:48 PM on December 31st, you'll begin the year with Chandler saying, "Hi, Emma. It's the year 2020. Are you still enjoying your nap?"" / Twitter :general:revathy:factoid:
+https://twitter.com/NetflixIndia/status/1211179260389388288
+Selection:
+If you start S10E04 of Friends at 11:48 PM on December 31st, you'll begin the year with Chandler saying, "Hi, Emma. It's the year 2020. Are you still enjoying your nap?"
+Comment:
+Interesting Friends anecdote
+* [2019-12-29 Sun 15:10] Ambedkarites, Anurag Kashyap and Twitter | Scattered Brain :caste:
+https://scatteredpillar.wordpress.com/2019/12/29/ambedkarites-anurag-kashyap-and-twitter/
+Selection:
+When people ask Ambedkarites to not challenge normalization of hate against reservations, they are basically saying we do not care about the mocking, bullying and harassment thousands of Bahujan students face in colleges and universities every year. 
+Comment:
+Tejas Harad's post
+* [2019-12-31 Tue 22:24] New Tab :unix:
+about:newtab
+Comment:
+To get hard disk info cat /proc/scsi/scsi
+* [2020-01-02 Thu 13:00] Google Tech Dev Guide :learn:programming:
+https://techdevguide.withgoogle.com/
+Comment:
+google dev guide
+* [2020-01-02 Thu 18:09] Visakan Veerasamy on Twitter: "I saw someone tweet “I wish smart writing came to me as easily as dumb tweeting” and I am here to share with you my strategy for using the latter to precipitate the former" / Twitter :writing:
+  https://twitter.com/visakanv/status/1088347054974201858
+Comment:
+about smart writing
+* [2020-01-02 Thu 18:28] Tweets / Twitter :Tweets:
+https://twitter.com/damukkuttan
+Selection:
+The pricing system in fpl is really irritating. Current price and selling price and profit and all the bullshit.
+* [2020-01-02 Thu 18:33] Tweets / Twitter :Tweets:
+https://twitter.com/outlieranalysis
+Selection:
+So many websites just don't work without cookies!
+* [2020-01-02 Thu 18:44] Free Disk Space for Developers :unix:
+https://freespace.tdhopper.com/
+
+* [2020-01-02 Thu 18:54] Felienne Hermans on Programming Education - CaSE: Conversations about Software Engineering :programming:
+https://www.case-podcast.org/27-felienne-hermans-on-programming-education/transcript
+Selection:
+If you ask a kid to read aloud, you can look into their brains
+Comment:
+Interesting insight
+* [2020-01-02 Thu 18:57] Felienne Hermans on Programming Education - CaSE: Conversations about Software Engineering :programming:
+https://www.case-podcast.org/27-felienne-hermans-on-programming-education/transcript
+Selection:
+Find the execution path
+Comment:
+How to read programs
+* [2020-01-02 Thu 22:19] Visakan Veerasamy on Twitter: "Reminded of a riff from Joseph Campbell: all you need to get out of the labyrinth is a ball of thread. But without it you’re lost and hopeless. The difference between despair and triumph: 🧵" / Twitter :quote:
+  https://twitter.com/visakanv/status/1212777677960048641
+Selection:
+Reminded of a riff from Joseph Campbell: all you need to get out of the labyrinth is a ball of thread. But without it you’re lost and hopeless. 
+
+* [2020-01-02 Thu 22:41] Visakan Veerasamy on Twitter: "Questions I Keep Getting About My Threads, The Thread https://t.co/R35zlQme2Q" / Twitter :twitter:
+https://twitter.com/visakanv/status/1117341290474008578
+Selection:
+4. “How do you know what to search for?”
+
+I don’t always! Maybe something slightly unorthodox about my twitter use is that I spend a lot of time searching “from:visakanv <random string>”, so I kinda have hundreds of old tweets floating around in my short-term memory
+Comment:
+Interesting
+* [2020-01-07 Tue 08:53] How to Fix Windows and Linux Showing Different Times When Dual Booting :unix:
+https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
+Selection:
+timedatectl set-local-rtc 1 --adjust-system-clock
+Comment:
+Ubuntu Command
