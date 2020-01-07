@@ -109,3 +109,7 @@ Selection:
 timedatectl set-local-rtc 1 --adjust-system-clock
 Comment:
 Ubuntu Command
+* [2020-01-07 Tue 09:04] Changing a remote's URL - GitHub Help :unix:
+https://help.github.com/en/github/using-git/changing-a-remotes-url
+Selection:
+ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
