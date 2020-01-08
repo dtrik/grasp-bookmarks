@@ -113,3 +113,11 @@ Ubuntu Command
 https://help.github.com/en/github/using-git/changing-a-remotes-url
 Selection:
  git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+* [2020-01-08 Wed 20:53] Displaying the current line or column - GNU Emacs FAQ :unix:
+https://www.gnu.org/software/emacs/manual/html_node/efaq/Displaying-the-current-line-or-column.html
+Selection:
+ (setq column-number-mode t)
+* [2020-01-08 Wed 23:27] Orgmode for GTD :unix:
+https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html
+Comment:
+Full-fledged GTD in org-mode
